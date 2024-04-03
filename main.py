@@ -91,7 +91,7 @@ def listar_contas(contas):
       """  
       print("=" * 100)
       print(textwrap.dedent(linha))
-      a
+
 def main():
   saldo = 0
   extrato = ""
@@ -127,8 +127,7 @@ def main():
         contas.append(conta)
     
     elif opcao == "lc":
-      listar_contas(f
-                    f)
+      listar_contas(contas)
 
     elif opcao == "q":
       break
